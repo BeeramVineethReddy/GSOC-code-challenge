@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grouping</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="sorting_script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2> STUDENT MARKS</h2>
+    <table id="table">
+        <tr>
+            <th>
+                Student Name
+            </th>
+            <th>
+                Programming in C
+            </th>
+            <th>
+                Java Programming
+            </th>
+            <th>
+                Data Structures
+            </th>
+            <th>
+                Algorithms
+            </th>
+        </tr>
+        <tr>
+            <td>Noah</th>
+            <td>51</td>
+            <td>90</td>
+            <td>39</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>Noah</td>
+            <td>91</td>
+            <td>88</td>
+            <td>19</td>
+            <td>58</td>
+        </tr>
+        <tr>
+            <td>William</td>
+            <td>34</td>
+            <td>82</td>
+            <td>32</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td>William</td>
+            <td>62</td>
+            <td>97</td>
+            <td>41</td>
+            <td>83</td>
+        </tr>
+        <tr>
+            <td>James</td>
+            <td>32</td>
+            <td>14</td>
+            <td>68</td>
+            <td>84</td>
+        </tr>
+        <tr>
+            <td>James</td>
+            <td>40</td>
+            <td>89</td>
+            <td>67</td>
+            <td>70</td>
+        </tr>
+        
+    </table>
+    <br><br><br>
+    <div style="text-align: center;">
+    <label for="group">Choose a name for grouping: </label>
+        <select name="group" id="group" onchange="return group()">
+            <option value="none">Select</option>
+            <option value="James">James</option>
+            <option value="William">William</option>
+            <option value="Noah">Noah</option>
+            
+        </select>
+    </div>
+    <br><br><br>
+</body>
+</html>

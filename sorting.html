@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Sorting</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +30,7 @@
             </th>
         </tr>
         <tr>
-            <td>Liam</th>
+            <td>Noah</th>
             <td>51</td>
             <td>90</td>
             <td>39</td>
@@ -43,7 +44,7 @@
             <td>58</td>
         </tr>
         <tr>
-            <td>Oliver</td>
+            <td>William</td>
             <td>34</td>
             <td>82</td>
             <td>32</td>
@@ -57,7 +58,7 @@
             <td>83</td>
         </tr>
         <tr>
-            <td>Elijah</td>
+            <td>James</td>
             <td>32</td>
             <td>14</td>
             <td>68</td>
@@ -74,9 +75,12 @@
     </table>
     <br><br><br>
     
+
+
+
     <div style="text-align: center;">
         <label for="sort">Choose a field for sorting: </label>
-        <select name="sort" id="sort" onchange="return fn()">
+        <select name="sort" id="sort" onchange="return util()">
             <option value="none">Select</option>
             <option value="name">Student Name</option>
             <option value="c">Programming in C</option>
