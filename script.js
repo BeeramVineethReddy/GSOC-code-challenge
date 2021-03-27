@@ -1,5 +1,25 @@
-
+/*
 function group()
+{
+
+var name = document.getElementById("group").value;
+if(name=="none")
+{
+  location.reload();
+}
+var table = document.getElementById("table");
+var rows = table.rows;
+
+for (i = 1; i < rows.length; i++)
+{
+  if(rows[i].getElementsByTagName("TD")[0].innerHTML!=name)
+  rows[i].innerHTML="";
+}
+
+  }*/
+
+
+  function group()
 {
 
   data = [
@@ -46,6 +66,8 @@ for(i =0;i<data.length;i++)
   }
 
 }
+}
+
 
 
 
@@ -69,7 +91,7 @@ for(i =0;i<data.length;i++)
   // {
   //   document.getElementById("table").deleteRow(del[i]);
   // }
-}
+
 function util()
 {
     var sortby = document.getElementById("sort").value;
